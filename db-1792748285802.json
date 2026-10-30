@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Task Manager Capstone",
+      "description": "Build a complete task management application."
+    },
+    {
+      "id": 2,
+      "name": "React Learning",
+      "description": "Practice React, TypeScript and Redux."
+    }
+  ],
+  "tasks": [
+    {
+      "id": 101,
+      "projectId": 1,
+      "title": "Set up React and TypeScript",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-10-20"
+    },
+    {
+      "id": 102,
+      "projectId": 1,
+      "title": "Configure Redux Toolkit",
+      "status": "inProgress",
+      "priority": "high",
+      "dueDate": "2026-10-21"
+    },
+    {
+      "id": 103,
+      "projectId": 1,
+      "title": "Build the Projects page",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-10-30"
+    },
+    {
+      "id": 104,
+      "projectId": 1,
+      "title": "Write automated tests",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-11-05"
+    },
+    {
+      "id": 201,
+      "projectId": 2,
+      "title": "Learn React Hooks",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-10-18"
+    },
+    {
+      "id": 202,
+      "projectId": 2,
+      "title": "Practice TypeScript",
+      "status": "inProgress",
+      "priority": "medium",
+      "dueDate": "2026-10-28"
+    }
+  ]
+}

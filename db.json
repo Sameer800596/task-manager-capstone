@@ -1,0 +1,127 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Task Manager Capston",
+      "description": "Build a complete task management application."
+    },
+    {
+      "id": 2,
+      "name": "React Learni",
+      "description": "Practice React, TypeScript and Redux."
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "My personal portfolio project",
+      "id": 3
+    },
+    {
+      "name": "Task Manager Capstone",
+      "description": "Build a complete task management application.",
+      "id": 4
+    },
+    {
+      "name": "Backend .net",
+      "description": "C#, Link Queries , postgreSql database",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "id": 102,
+      "projectId": 1,
+      "title": "Configure Redux Toolkit",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-10-21"
+    },
+    {
+      "id": 103,
+      "projectId": 1,
+      "title": "Build the Projects",
+      "status": "In Progress",
+      "priority": "medium",
+      "dueDate": "2026-10-30"
+    },
+    {
+      "id": 104,
+      "projectId": 1,
+      "title": "Write automated tests",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-11-05"
+    },
+    {
+      "id": 202,
+      "projectId": 2,
+      "title": "Practice TypeScript",
+      "status": "In Progress",
+      "priority": "medium",
+      "dueDate": "2026-10-28"
+    },
+    {
+      "projectId": 1,
+      "title": "learn next.js",
+      "status": "Done",
+      "priority": "low",
+      "dueDate": "2027-02-09",
+      "id": 203
+    },
+    {
+      "projectId": 1,
+      "title": "kjijij",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-11-06",
+      "id": 204
+    },
+    {
+      "projectId": 3,
+      "title": "learn states",
+      "status": "In Progress",
+      "priority": "medium",
+      "dueDate": "2026-10-29",
+      "id": 205
+    },
+    {
+      "projectId": 4,
+      "title": "learn states",
+      "status": "Done",
+      "priority": "medium",
+      "dueDate": "2026-11-20",
+      "id": 206
+    },
+    {
+      "projectId": 4,
+      "title": "next.js",
+      "status": "Todo",
+      "priority": "high",
+      "dueDate": "2026-10-27",
+      "id": 207
+    },
+    {
+      "projectId": 1,
+      "title": "next",
+      "status": "inProgress",
+      "priority": "medium",
+      "dueDate": "2026-10-29",
+      "id": 208
+    },
+    {
+      "projectId": 1,
+      "title": "Test Past Date",
+      "status": "Todo",
+      "priority": "medium",
+      "dueDate": "2026-10-29",
+      "id": 209
+    },
+    {
+      "projectId": 1,
+      "title": "Updating Testing Task",
+      "status": "Todo",
+      "priority": "low",
+      "dueDate": "2026-10-30",
+      "id": 210
+    }
+  ]
+}
