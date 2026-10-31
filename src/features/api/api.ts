@@ -1,15 +1,17 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import type { Project, Task } from "../../types";
+  import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+   import type { Project, Task } from "../../types";
 
+   const API_BASE_URL =
+    import.meta.env.VITE_API_URL || "http://localhost:3001/";
 
-export const api = createApi({
-    reducerPath: "api",
-  
+  export const api = createApi({
+     reducerPath: "api",
+
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:3001/",
+         baseUrl: API_BASE_URL,
     }),
 
-    tagTypes:["Project","Task"],
+    tagTypes: ["Project", "Task"],
 
     endpoints: (builder)=> ({
         getProjects:builder.query<Project[],void>({
