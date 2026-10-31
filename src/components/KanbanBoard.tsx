@@ -100,11 +100,14 @@ export default function KanbanBoard({ tasks }: KanbanBoardProps) {
                               ref={provided.innerRef}
                               {...provided.draggableProps}
                               {...provided.dragHandleProps}
-                              className={`rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-900 ${
-                                snapshot.isDragging
-                                  ? "shadow-lg"
-                                  : ""
-                              }`}
+                              className={`rounded-lg border p-4 shadow-sm ${
+               task.dueDate < new Date().toISOString().split("T")[0] &&
+                task.status !== "done"
+             ? "border-red-500 bg-red-100 dark:bg-red-950"
+              : "border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900"
+               } ${
+                 snapshot.isDragging ? "shadow-lg" : ""
+              }`}
                             >
                               <p className="break-words font-medium text-gray-900 dark:text-white">
                                 {task.title}
